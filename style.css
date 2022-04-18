@@ -1,0 +1,165 @@
+:root{
+    --verde: #2e8002;
+    --preto: #141414;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--preto);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.logo {
+    width: 40px;
+}
+
+
+
+header .cabeca {
+    color: var(--verde);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+header nav a{
+    text-decoration: none;
+    color:rgb(83, 83, 83);
+    margin-right: 18px;
+    
+}
+
+header nav a:hover{
+    color: whitesmoke;
+}
+
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filmeprincipal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url(img/farmaco.jpg);
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+div .conteudo {
+    margin-left: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.descricao {
+    margin-right: 25px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.img-avaliacao {
+    width: 40px;
+    align-items: baseline;
+}
+
+.titulo {
+    font-size:40px;
+}
+
+.avaliacao {
+    background-size: cover;
+    display: flex;
+    justify-content:flex-start;
+    margin-bottom: 20px;
+    align-items:center;
+    border-right: 10px;
+}
+
+.area {
+    margin-left: 5px;
+    padding: 2px 2px 2px 2px;
+    background-color: rgba(0,0,0,.50);;
+    border-radius: 3px;
+    color: var(--verde);
+    font-weight: bold;
+
+
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: whitesmoke;
+    padding: 15px 30px;
+    margin-right: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    
+}
+
+.botao:hover{
+    background-color: whitesmoke;
+    color: var(--preto);
+    transition: .3s;
+}
+
+.botao i{
+    margin-right: 5px;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 0px;
+}
+
+footer {
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+.github {
+    background-color: rgba(254,245,245,.50);
+    color: whitesmoke;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 2px;
+    border: none;
+    font-size: 15px;
+}
+
+.github:hover{
+    background-color: var(--preto);
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+.descricao-video {
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    font-size: 12px;
+    color: whitesmoke;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
